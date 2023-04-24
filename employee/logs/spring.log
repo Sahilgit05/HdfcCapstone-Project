@@ -159,3 +159,31 @@
 2023-04-22 11:14:11,311 [http-nio-6065-exec-3] TRACE c.h.e.controller.EmployeeRestController            : Entering getEmployeeById() method.
 2023-04-22 11:14:11,312 [http-nio-6065-exec-3] DEBUG c.h.e.controller.EmployeeRestController            : Checking the Employee With employeeId provided:-106
 2023-04-22 11:14:11,490 [http-nio-6065-exec-3] ERROR c.h.e.controller.EmployeeRestController            : Employee not Found with employeeId106EmployeeNotFound Exception Thrown.
+2023-04-22 14:46:32,305 [main] INFO  c.h.e.EmployeeManagementApplication                : Starting EmployeeManagementApplication using Java 17.0.6 on sahil with PID 26660 (C:\Users\sahil\OneDrive\Desktop\CapstoneProject\employee\build\classes\java\main started by sahil in C:\Users\sahil\OneDrive\Desktop\CapstoneProject\employee)
+2023-04-22 14:46:32,308 [main] DEBUG c.h.e.EmployeeManagementApplication                : Running with Spring Boot v2.7.11, Spring v5.3.27
+2023-04-22 14:46:32,309 [main] INFO  c.h.e.EmployeeManagementApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-04-22 14:46:33,576 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-22 14:46:33,680 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          : Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interfaces.
+2023-04-22 14:46:34,536 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            : Tomcat initialized with port(s): 6065 (https)
+2023-04-22 14:46:34,551 [main] INFO  org.apache.catalina.core.StandardService           : Starting service [Tomcat]
+2023-04-22 14:46:34,553 [main] INFO  org.apache.catalina.core.StandardEngine            : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-22 14:46:34,714 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 : Initializing Spring embedded WebApplicationContext
+2023-04-22 14:46:34,714 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 2324 ms
+2023-04-22 14:46:34,921 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-22 14:46:35,007 [main] INFO  org.hibernate.Version                              : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-22 14:46:35,252 [main] INFO  org.hibernate.annotations.common.Version           : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-22 14:46:35,391 [main] INFO  com.zaxxer.hikari.HikariDataSource                 : HikariPool-1 - Starting...
+2023-04-22 14:46:36,809 [main] INFO  com.zaxxer.hikari.HikariDataSource                 : HikariPool-1 - Start completed.
+2023-04-22 14:46:36,905 [main] INFO  org.hibernate.dialect.Dialect                      : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-22 14:46:38,164 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-22 14:46:38,182 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-22 14:46:38,630 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-22 14:46:39,352 [main] INFO  o.a.t.util.net.NioEndpoint.certificate             : Connector [https-jsse-nio-6065], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/sahil/OneDrive/Desktop/CapstoneProject/employee/build/resources/main/mykeystore.jks] using alias [selfsigned] and with trust store [null]
+2023-04-22 14:46:39,383 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            : Tomcat started on port(s): 6065 (https) with context path ''
+2023-04-22 14:46:39,393 [main] INFO  c.h.e.EmployeeManagementApplication                : Started EmployeeManagementApplication in 7.742 seconds (JVM running for 8.297)
+2023-04-22 14:48:39,212 [https-jsse-nio-6065-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-22 14:48:39,212 [https-jsse-nio-6065-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+2023-04-22 14:48:39,214 [https-jsse-nio-6065-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 1 ms
+2023-04-22 14:48:39,267 [https-jsse-nio-6065-exec-1] TRACE c.h.e.controller.EmployeeRestController            : Entering getEmployeeById() method.
+2023-04-22 14:48:39,271 [https-jsse-nio-6065-exec-1] DEBUG c.h.e.controller.EmployeeRestController            : Checking the Employee With employeeId provided:-101
+2023-04-22 14:48:39,528 [https-jsse-nio-6065-exec-1] INFO  c.h.e.controller.EmployeeRestController            : Employee Info Delivered.
