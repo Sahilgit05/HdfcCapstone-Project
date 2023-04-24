@@ -1,25 +1,13 @@
-package com.hdfc.employee.entity;
+package com.hdfc.EmployeewebClient.entity;
 
-//import com.hdfc.employee.config.AttributeConverter;
-
-import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
-import java.util.Date;
-@Entity
-@Table(name = "Employee")
+
 public class Employee {
 
-    @Id
-    @Column(name = "EmployeeID")
     private int employeeId;
 
-    @Column(name = "EmployeeName")
-    @NotNull
     private String employeeName;
-    @Column(name = "DateOfBirth")
-    @NotNull
-    //@Convert(converter = AttributeConverter.class)
+
     private LocalDate dateOfBirth;
 
     public Employee() {

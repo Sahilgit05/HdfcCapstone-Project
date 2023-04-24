@@ -1,28 +1,16 @@
-package com.hdfc.employee.entity;
+package com.hdfc.employee.dto;
 
-//import com.hdfc.employee.config.AttributeConverter;
-
-import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
-import java.util.Date;
-@Entity
-@Table(name = "Employee")
-public class Employee {
 
-    @Id
-    @Column(name = "EmployeeID")
+public class EmployeeDto {
+
     private int employeeId;
 
-    @Column(name = "EmployeeName")
-    @NotNull
     private String employeeName;
-    @Column(name = "DateOfBirth")
-    @NotNull
-    //@Convert(converter = AttributeConverter.class)
+
     private LocalDate dateOfBirth;
 
-    public Employee() {
+    public EmployeeDto() {
     }
 
     public int getEmployeeId() {
@@ -51,7 +39,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "EmployeeDto{" +
                 "employeeId=" + employeeId +
                 ", employeeName='" + employeeName + '\'' +
                 ", dateOfBirth=" + dateOfBirth +
