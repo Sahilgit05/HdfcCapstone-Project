@@ -1,4 +1,4 @@
-package com.hdfc.EmployeewebClient.entity;
+package com.hdfc.EmployeewebClient.pojo;
 
 import java.time.LocalDate;
 
