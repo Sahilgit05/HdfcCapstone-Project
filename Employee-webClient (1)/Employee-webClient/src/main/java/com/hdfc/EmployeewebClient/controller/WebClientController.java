@@ -21,7 +21,7 @@ public class WebClientController {
     @Autowired
     IEmployeeService service;
 
-    String baseUrl="https://127.0.0.1:53892/api/employee-management";
+    String baseUrl="https://localhost:6065/api/employee-management";
 
     @GetMapping("/get-employee-by-Id/{employeeId}")
     public Employee getEmployeeById(@PathVariable int employeeId) throws GeneralSecurityException {
